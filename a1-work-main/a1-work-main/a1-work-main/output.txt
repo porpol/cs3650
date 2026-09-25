@@ -1,1 +1,45 @@
+tonyw@yo-mama:/mnt/c/Users/tonyw$ cd desktop
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop$ cd cs3650
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650$ ls
+a1-work-main
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650$ cd a1-work-main/
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main$ cd a1-work-main/
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main$ cd a1-work-main/
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ ls
+ExternalResources  README.md  hello.c  output.txt
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ nl output.txt
+     1  # Simply copy and paste the output from your terminal here!
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ pwd
+/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ mkdir test
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ ls
+ExternalResources  README.md  hello.c  output.txt  test
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ rmdir test
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ ls
+ExternalResources  README.md  hello.c  output.txt
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ mkdir move
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ mv hello.c move
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ cd move/
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main/move$ ls
+hello.c
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main/move$ mv hello.c ..
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main/move$ ls
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main/move$ cd ..
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ ls
+ExternalResources  README.md  hello.c  move  output.txt
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ rmdir move
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ cp hello.c hello2.c
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ ls
+ExternalResources  README.md  hello.c  hello2.c  output.txt
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ touch code.c
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ ls
+ExternalResources  README.md  code.c  hello.c  hello2.c  output.txt
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ man cp
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ ps
+    PID TTY          TIME CMD
+    657 pts/0    00:00:00 bash
+    719 pts/0    00:00:00 ps
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$ echo "hello there"
+hello there
+tonyw@yo-mama:/mnt/c/Users/tonyw/desktop/cs3650/a1-work-main/a1-work-main/a1-work-main$
 # Simply copy and paste the output from your terminal here!
